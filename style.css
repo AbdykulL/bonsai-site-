@@ -1,0 +1,380 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white ;
+}
+.container{
+    padding: 180px  ;
+}
+.header{
+    display: grid;
+    grid-template-columns: 400px 500px 400px ;
+    margin-bottom: 20px;
+}
+.bonsai img  {
+    width: 40%;
+    
+
+}
+.basi{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+}
+.btn3 button{
+   padding: 10px;
+   background-color: #1bb08a;
+   border: none ;
+   border-radius: 5px;
+   
+   
+}
+.btn3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px ;
+
+}
+.mostpopular{
+    background-color: aliceblue;
+    width: 1200px;
+    /* display: grid;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 50% 50;
+    color: black;
+    gap:2rem; */
+    
+}
+.general{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-template-rows: 50% 50%;
+    color: black;
+    
+    
+
+}
+.starter,.Professional,.Business{
+    padding: 30px;
+    padding-top: 50px;
+    background-color: white;
+    width: 350px ;
+   
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.starter2,.Professional2,.Business2{
+    padding: 30px;
+    padding-top: 50px;
+    background-color: white;
+    width: 350px ;
+   
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.starter button{
+    padding: 15px;
+    margin-top: 120px;
+    background-color: #1bb08a;
+    border: none;
+    border-radius: 5px;
+}
+.Business button{
+    padding: 15px;
+    margin-top: 40px;
+    background-color:  #1bb08a;
+    border: none;
+    border-radius: 5px;
+}
+.Professional button{
+    padding: 15px;
+    margin-top: 90px;
+    background-color:  #1bb08a;
+    border: none;
+    border-radius: 5px;
+}
+.starter2 button{
+    padding: 15px;
+    margin-top: 85px;
+    background-color:  #1bb08a;
+    border: none;
+    border-radius: 5px;
+
+}
+.Business2 button{
+    padding: 15px;
+    background-color:  #1bb08a;
+    border: none;
+    border-radius: 5px;
+   
+    
+}
+.Professional2 button{
+    padding: 15px;
+    margin-top: 50px;
+    background-color:  #1bb08a;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.lish{
+    margin-top :2px;
+    border: 2px solid  #1bb08a ;
+    
+}
+.left{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+/* .top{
+    margin-top: -30px; */
+
+hr{
+    margin-top: -20px;
+    border: 2px solid  #1bb08a ;
+}
+.big{
+    font-size: 60px;
+}
+.starter h1,.starter2 h1,.Professional h1,.Professional2 h1,.Business h1,.Business2 h1 {
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+    
+}
+.Professional,.Business {
+    padding: 30px;
+    padding-top: 50px;
+    background-color: white;
+    width: 350px ;
+   
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.main{
+    text-align: center ;
+    margin-top: 100px;
+}
+.container2{
+    padding: 20px;
+}
+.block1,.block2,.block3 {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 40px 20px 10px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0.5px 1px 4px ;
+    padding: 40px;
+    
+}
+.right h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 66, 66);
+}
+.left h1 {
+    margin-top: 40px;
+    text-align: cenetr ;
+    color: rgb(68, 66, 66);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right a{
+    text-decoration: none;
+    color: #1bb08a;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 200px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+
+}
+.right2,.left2{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left2 button{
+    padding: 15px;
+    background-color: #1bb08a;
+    border-radius: 5px;
+    border: none ;
+    color: white;
+}
+.right2{
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(68, 66, 66) ;
+}
+span{
+    color: #1bb08a;
+}
+.middle {
+    text-align: center ;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container4{
+    padding-left: 140px;
+    display: grid;
+    margin-top: 50px;
+    gap: 1rem;
+}
+.leftclick{
+    margin-left: 800px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+details p{
+    margin-right: 180px;
+    color: rgb(68, 66, 66);
+}
+.summary1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(68, 66, 66) ;
+}
+.summary1 h1:hover{
+    color: #1bb08a;
+}
+footer{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    padding-left: 180px;
+    padding-bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PRODUCT{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none ;
+    color:rgb(68, 66, 66) ;
+}
+.PRODUCT a{
+    text-decoration: none ;
+    color:rgb(99, 96, 96) ;
+}
+.PRODUCT a:hover{
+    text-decoration: none ;
+    color: black;
+}
+
+.PRODUCT P{
+    margin-top: 20PX;
+
+}
+
+.FREEResources{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.FREEResources a{
+    text-decoration: none ;
+    color:rgb(99, 96, 96) ;
+}
+.FREEResources a:hover{
+    text-decoration: none ;
+    color: black;
+}
+.BONSAI{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.BONSAI a{
+    text-decoration: none ;
+    color:rgb(99, 96, 96) ;
+}
+.BONSAI a:hover{
+    text-decoration: none ;
+    color: black;
+
+
+}
+@media screen and (max-width:450px){
+    
+    
+    .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .bonsai img{
+        width: 80%;
+        
+    }
+    .basi,.btn3{
+        display: none ;
+    }
+    .mostpopular{
+        background-color: none ;
+        width: 0;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+    .block1,.block2,.block3{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    .main{
+        width: 300px;
+    }
+    .container3{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .summary1{
+        width: 300px;
+        margin-left: -80px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: -120px;
+        margin-top: 30px;
+    }
+    .leftclick{
+        display: none ;
+    }
+    
+    
+}
